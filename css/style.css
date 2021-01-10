@@ -53,5 +53,6 @@ nav ul {
   grid-area: 5/1/6/5;
   background-color: lightseagreen;
   color: darkgoldenrod;
+  font-size: 22px;
   text-align: center;
 }
