@@ -16,6 +16,10 @@ header, footer, img {
   border-radius: 10px;
 }
 
+hr {
+  width: 100%;
+  margin-left: -50px;
+}
 nav ul {
   list-style: none; 
   margin: 0 auto;
