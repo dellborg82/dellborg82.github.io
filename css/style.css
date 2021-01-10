@@ -12,29 +12,46 @@ body {
   max-width: 760px;
 }
 
+header, footer, img {
+  border-radius: 10px;
+}
 
+nav ul {
+  list-style: none; 
+  margin: 0 auto;
+ }
+
+ nav a:hover {
+  color: green;
+}
 
 .main-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
+  background-color: lightgray;
 }
 
 .main-heading {
-  grid-area: 1/1/1/4;
-  background-color: blue;
-  color: yellow;
+  grid-area: 1/1/1/5;
+  background-color: lightseagreen;
+  color: darkgoldenrod;
+  text-align: center;
 }
 
 .main-assignmentlinks {
-  grid-area: 2/1/5/3;
+  grid-area: 2/2/5/4;
+  margin-left: -100px;
 }
 
 .main-image-1{
-  grid-area: 2/3/5/4;
+  grid-area: 2/4/5/5;
   margin-top: -50px;
  }
 
 .main-footer {
-  grid-area: 5/1/6/4;
+  grid-area: 5/1/6/5;
+  background-color: lightseagreen;
+  color: darkgoldenrod;
+  text-align: center;
 }
