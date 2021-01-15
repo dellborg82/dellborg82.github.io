@@ -35,8 +35,8 @@ nav ul {
 
 .main-heading {
   grid-area: 1/1/1/5;
-  background-color: rgb(42, 221, 212);
-  color: darkgoldenrod;
+  background-color: #2CE8D2;
+  color: #7C5B13;
   font-weight: bold;
   text-align: center;
 }
@@ -53,8 +53,8 @@ nav ul {
 
 .main-footer {
   grid-area: 5/1/6/5;
-  background-color: rgb(42, 221, 212);
-  color: darkgoldenrod;
+  background-color: #2CE8D2;
+  color: #7C5B13;
   font-weight: bold;
   font-size: 22px;
   text-align: center;
