@@ -37,7 +37,7 @@ nav ul {
   grid-area: 1/1/1/5;
   background-color: lightseagreen;
   color: darkgoldenrod;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -55,6 +55,7 @@ nav ul {
   grid-area: 5/1/6/5;
   background-color: lightseagreen;
   color: darkgoldenrod;
+  font-weight: bold;
   font-size: 22px;
   text-align: center;
 }
