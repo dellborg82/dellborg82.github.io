@@ -69,6 +69,9 @@ figure {
   width: 100%;
   margin-left: 0;
 }
+a:link {
+  color: #000047;
+}
 
 footer {
   background-color: #17a8e4;
