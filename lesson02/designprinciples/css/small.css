@@ -31,7 +31,10 @@ header h2 {
 
 body figure img {
   width: 100%;
+  border: 1px solid darkblue;
+  border-radius: .5rem;
 }
+
 body figcaption {
   text-align: center;
   font-size: .8rem;
@@ -47,13 +50,24 @@ h3, .sitename, .sitelink {
   margin: 10px auto;
   border-radius: .5rem;
   background-color: lightgray;
+  
+}
+
+.title-h3 {
+  background-color: yellow;
   padding: .5rem;
+  margin-top: 0;
+  border-radius: .5rem;
 }
 
 .title-description {
   text-align: justify;
 }
 
+figure {
+  width: 100%;
+  margin-left: 0;
+}
 
 footer {
   background-color: #17a8e4;
