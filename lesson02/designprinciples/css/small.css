@@ -1,0 +1,63 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem 2%;
+  display: block; /* Used for old versions of Microsof IE */
+}
+
+body {
+  font-family: Verdona;
+  font-size: 16px;
+  
+}
+
+/* header rules here */
+header {
+  background-color: #17a8e4;
+  padding: 1rem 2%;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+}
+
+body figure img {
+  width: 100%;
+}
+body figcaption {
+  text-align: center;
+  font-size: .8rem;
+}
+
+h3, .sitename, .sitelink {
+  text-align: center;
+}
+
+.tile-1, .tile-2, .tile-3 {
+  max-width: 330px;
+  border: 1px solid darkblue;
+  margin: 10px auto;
+  border-radius: .5rem;
+  background-color: lightgray;
+  padding: .5rem;
+}
+
+.title-description {
+  text-align: justify;
+}
+
+
+footer {
+  background-color: #17a8e4;
+  padding: 1rem 2%;
+  text-align: center;
+  border-radius: .5rem;
+}

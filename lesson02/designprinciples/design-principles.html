@@ -1,60 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="Design-Principles" content="This is a website to demonstrate design principles">
-<meta name="Aaron Stevens" content="WDD 230 - Web Front end Development 1">
-<title>Design-Principles</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="Design-Principles"
+      content="This is a website to demonstrate design principles"
+    />
+    <meta
+      name="Aaron Stevens"
+      content="WDD 230 - Web Front end Development 1"
+    />
+    <title>Design-Principles</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/small.css" rel="stylesheet">
-<link href="css/medium.css" rel="stylesheet">
-<link href="css/large.css" rel="stylesheet">
-</head>
-
-<body>
-<body>
-<header>
-  <h1>Christmas Ranch</h1>
-  <h2>For Wanabe Cowpeople</h2>
-</header>
-  
-<nav class="clearfix">
-<ul>
-  <li><a href="index.html">Services</a></li>
-  <li><a href="#">Location</a></li>
-  <li class="active"><a href="#">Events</a></li>
-  <li><a href="#">Contact</a></li>
-</ul>
-</nav>
-
-<main>
-    
-    <h1>Events</h1>
-    <figure>
-    <img src="images/cows.jpg" alt="Herford Cows">
-    <figcaption>Herford Cows</figcaption>
-    </figure>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris pretium, tempus elit vel, condimentum ex. Aliquam tempus arcu vitae massa fermentum mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vel sapien gravida, consequat tellus non, rhoncus est. Maecenas tincidunt placerat posuere. Quisque elementum consequat augue vel finibus. Vivamus mi nibh, mattis sit amet sapien ut, posuere malesuada leo. Phasellus facilisis enim lorem, sed ultricies diam maximus in. Maecenas fermentum eu mi vitae pretium.</p>
-
-    <div class="news">
-    <p>Appropriately deliver resource-leveling infrastructures via one-to-one architectures. Progressively expedite B2B process improvements with plug-and-play applications. Conveniently simplify robust channels via ubiquitous intellectual capital. Monotonectally implement client-centric supply chains without customer directed opportunities. Enthusiastically re-engineer cross functional markets whereas sticky products.</p>
-
-    <p>Conveniently repurpose multifunctional imperatives before corporate technology. Holisticly orchestrate cross functional portals vis-a-vis fully tested imperatives. Dynamically transform low-risk high-yield leadership and long-term high-impact systems. Dramatically build resource sucking internal or "organic" sources before high standards in action items. Appropriately develop proactive vortals through extensible e-services.</p>
-
-    <p>Energistically exploit effective solutions with fully researched data. Completely leverage existing standardized ROI through collaborative content. Compellingly supply fully researched ideas rather than real-time process improvements. Efficiently envisioneer proactive ideas after B2B materials. Proactively scale cross-media platforms vis-a-vis e-business manufactured products.</p>
-
-    <p>Proactively pursue go forward ideas vis-a-vis impactful quality vectors. Monotonectally predominate cross-unit web services without front-end action items. Enthusiastically disintermediate e-business testing procedures after granular deliverables. Objectively productivate premium users before revolutionary partnerships. Collaboratively aggregate best-of-breed systems without installed base leadership skills.</p>
-    </div>
-
-    
-</main>
-
-<footer>
-&copy; Aaron Stevens 2021
-</footer>
-</body>
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="content">
+    <header>
+      <h1>Design-Principles</h1>
+      <h2>Aaron Stevens</h2>
+    </header>
+    <section class="tiles">
+      <div class="tile-1">
+        <h3 class="title-h3">Hick's Law</h3>
+        <p class="sitename">Lucky Burger</p>
+        <a href="https://luckyburgerandgrill.com/" class="sitelink">Lucky Burger and Grill</a>
+        <figure>
+          <img src="images/hickslaw.jpg" alt="Hick's Law">
+          <figcaption>Hick's Law</figcaption>
+        </figure>
+        <p class="tile-discription">
+          Hick's Law states that the time it takes to make a decision increases with the number and complexity of choices. When a website has multiple choices, it takes longer to decide what you want. 
+        </p>
+      </div>
+      <div class="tile-2">
+        <h3 class="title-h3">White Space</h3>
+        <p class="sitename">Treehouse</p>
+        <a href="https://blog.teamtreehouse.com/white-space-in-web-design-what-it-is-and-why-you-should-use-it" class="sitelink">Treehouse</a>
+        <figure>
+          <img src="images/whitespace.jpg" alt="White Space image">
+          <figcaption>White Space</figcaption>
+        </figure>
+        <p class="tile-discription">
+          White space is needed to help make things look clean, or draw attention to something. In the picture above, the images look nice because there is space on all sides of them. This draws attention to the images. 
+        </p>
+      </div>
+      <div class="tile-3">
+        <h3 class="title-h3">Allignment</h3>
+        <p class="sitename">Tutsplus</p>
+        <a href="https://webdesign.tutsplus.com/articles/using-alignment-to-improve-your-designs--webdesign-14501" class="sitelink">Tutsplus</a>
+        <figure>
+          <img src="images/allignment.jpg" alt="Allignment">
+          <figcaption>Allignment</figcaption>
+        </figure>
+        <p class="tile-discription">
+          Allignment is important as it helps make the website look neat and clean. In the image above, everything is centered on the page, making it look professional.
+        </p>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <p>
+        &#xA9;
+        <script src="js/getcurrentyear.js"></script> | Aaron Stevens | Utah |
+        <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+      </p>
+      <p>Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="js/lastupdated.js"></script>
+  </div>
+  </body>
 </html>
