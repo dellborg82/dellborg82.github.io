@@ -1,11 +1,18 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr;
+
   padding: 1rem 2%;
   display: block; /* Used for old versions of Microsof IE */
 }
+
+
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
 
 body {
   font-family: Verdona;
