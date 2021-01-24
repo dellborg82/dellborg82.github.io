@@ -20,7 +20,9 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: 0.5rem 2%;
-  background-color: #ddd;
+  background-color: #083d77;
+  color: white;
+  font-family: 'Righteous', cursive;
 }
 
 header img {
@@ -31,11 +33,13 @@ header img {
 header h1 {
   margin: 0;
   font-size: 1.3rem;
+  font-family: 'Righteous', cursive;
 }
 header h2 {
   margin: 0;
   font-weight: normal;
   font-size:  1rem;
+  font-family: 'Righteous', cursive;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -73,9 +77,11 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #ddd;
+  background-color: #083d77;
+  color: white;
   padding: 0.5rem 2%;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
