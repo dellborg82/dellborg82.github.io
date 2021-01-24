@@ -66,13 +66,10 @@ nav ul li a:hover {
 }
 nav ul li.active a {
   background-color: #A790A5;
-  color: white;
+  color: black;
 }
 
-nav ul li.nav_active {
-  background-color: #A790A5;
-  color: white;
-}
+
 
 /*
 /*----------- MAIN --------------*/
@@ -114,7 +111,7 @@ h1, h2, h3 {
 
 .nav_active {
   background-color: #A790A5;
-  color: white;
+  color: black;
   padding: 10px;
   margin: 1rem auto;
   border-style: solid;
