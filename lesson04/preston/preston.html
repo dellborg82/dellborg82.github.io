@@ -21,23 +21,60 @@
 </head>
 <body>
   <!-- HEADER HERE -->
-  <header>
-
+  <header class="clearfix">
+    <img src="images/logo.png" alt="logo" />
+    <section class="headings">
+    <h1>The Weather Site</h1>
+    <div class="m">motto / catch phrase</div>
+  </section>
   </header>
 
   <!-- NAVIGATION HERE -->
-  <nav>
-
+  <nav class="clearfix">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li class="active"><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
   </nav>
 
   <!-- CONTENT HERE -->
   <main>
-
+    <section>
+      <h1>Preston Idaho</h1>
+      <!-- Hero Image goes here-->
+    </section>
+    <section>
+      <h2>Five Day Forecast</h2>
+      <!--Five Day Forcast goes here-->
+    </section>
+    <section>
+      <!-- Article goes here-->
+    </section>
+    <section>
+      <!-- Location Map goes here-->
+      <!--Contact Information goes here-->
+    </section>
   </main>
 
   <!-- FOOTER HERE -->
   <footer>
-    
+    <p>
+      &#xA9;
+      <script src="js/scripts.js"></script> 
+      <script>
+        getFullYear();
+      </script>| Aaron Stevens | Utah |
+      <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+    </p>
+    <p>Last Updated: <span id="lastupdated"></span></p>
+  <script src="js/scripts.js"></script>
+  <script>
+    lastUpdated();
+  </script>
   </footer>
 </body>
 </html>
