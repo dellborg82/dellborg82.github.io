@@ -45,6 +45,7 @@ nav {
   background-color: #2E4057;
   color: white;;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -71,7 +72,7 @@ nav ul li.active a {
 
 
 
-/*
+
 /*----------- MAIN --------------*/
 main {
   padding: 0 2%;

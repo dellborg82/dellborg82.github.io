@@ -4,8 +4,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*----------- HEADER --------------*/
+
 header {
-	background-color: #fff;
+	background-color: #083d77;
+  color: white;
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
@@ -27,12 +30,15 @@ header img {
 	margin: 0 0 0 17px;
 }
 
-.m {
+.motto {
 	font-style: italic;
 	letter-spacing: 1pt;
 	margin-left: 20px;
 	font-size: .9rem;
 }
+
+
+/*----------- NAVIGATION --------------*/
 
 nav button {
   margin: .2rem 2%;
@@ -43,7 +49,8 @@ nav button {
 }
 
 nav {
-  background-color: #ccc;
+  background-color: #2E4057;
+  color: white;;
   font-family: Verdana, sans-serif;
 }
 
@@ -58,8 +65,10 @@ nav ul li a {
   display: block;
   padding: .8rem 2%;
   text-decoration: none;
-  color: #000;
+  color: #eee;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 
@@ -75,6 +84,25 @@ nav ul li.activ {
 nav ul.hide {
   display: none;
 }
+
+/*----------- MAIN --------------*/
+
+.placeholder {
+  display: block;
+  margin: 1rem auto;
+  background-color: lightgray;
+  text-align: center;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #083d77;
+  color: white;
+  padding: 0.5rem 2%;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
