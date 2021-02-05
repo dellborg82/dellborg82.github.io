@@ -21,14 +21,16 @@ header img {
 
 .headings h1 {
 	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+  margin: 0 0 0 17px;
+  font-family: 'Righteous', cursive;
 }
 
 .motto {
 	font-style: italic;
 	letter-spacing: 1pt;
 	margin-left: 20px;
-	font-size: .9rem;
+  font-size: .9rem;
+  font-family: 'Righteous', cursive;
 }
 
 
@@ -67,12 +69,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #f4d35e;
+  color: black;
 }
-
-nav ul li.activ {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
+nav ul li.active a {
+  background-color: #A790A5;
+  color: black;
 }
 
 nav ul.hide {
