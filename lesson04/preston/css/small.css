@@ -41,7 +41,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-  color: #555;
+  color: rgb(48, 44, 44);
 }
 
 nav {
@@ -97,6 +97,10 @@ footer {
   padding: 0.5rem 2%;
   text-align: center;
   font-family: 'Righteous', cursive;
+}
+
+footer a {
+  color: #f4d35e;
 }
 
 
