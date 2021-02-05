@@ -1,25 +1,29 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
-  
-  header, nav, main, footer {
+main, footer {
     max-width: 64rem;
     margin:auto;
 }
+
+header button {
+  display: none;
+}
+
+
+
   
   nav {
     background: #2E4057; 
     }
       
-    nav button {
-      display: none;
-    }
     
     nav ul.hide {
-      display: block;
+      display: flex;
     }
     
     nav ul {
-      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       margin-left: 2%;
     }
     
