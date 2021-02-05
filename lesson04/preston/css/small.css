@@ -94,12 +94,11 @@ nav ul.hide {
 footer {
   background-color: #083d77;
   color: white;
-  padding: 0.5rem 2%;
   text-align: center;
   font-family: 'Righteous', cursive;
 }
 
-footer a {
+footer  {
   color: #f4d35e;
 }
 
