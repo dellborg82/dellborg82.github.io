@@ -46,8 +46,8 @@ console.log(dayNumber);
 
 const element = document.getElementById("special-note");
 if (dayNumber == 5) {
-    element.classList.add("showme");
+    element.classList.add("show-special");
 } else {
-    element.classList.add("hideme");
+    element.classList.add("hide-special");
 }
 }

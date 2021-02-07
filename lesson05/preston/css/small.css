@@ -7,11 +7,11 @@
   margin: auto;
 }
 
-.showme {
+.show-special {
   display: block;
 }
 
-.hideme {
+.hide-special {
   display: none;
 }
 
