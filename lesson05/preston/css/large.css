@@ -56,13 +56,12 @@ nav ul li a {
   margin: 22px auto;
 }
 
-.fiveDay table {
-  width: 550px;
+.fiveDay {
+  display: grid;
+
 }
 
-.fiveDay img {
-  width: 60px;
-}
+
 
 .article {
   max-width: 70%;

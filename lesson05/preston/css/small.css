@@ -148,7 +148,7 @@ nav ul.hide {
 
 .fiveDay {
   font-family: 'Righteous', cursive;
-  
+  display: none;
 }
 
 .article {
