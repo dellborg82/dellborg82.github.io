@@ -37,7 +37,32 @@ nav ul li a {
 }
 
 /* Main CSS */
+.heroDiv {
+  margin: 10px auto; 
+  width: auto; 
+}
 
+.hero-ph {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+}
+.weather-summary {
+  top: 40px;
+  left: 40px;
+}
+
+.weather-summary h3,p {
+  margin: 22px auto;
+}
+
+.fiveDay table {
+  width: 550px;
+}
+
+.fiveDay img {
+  width: 60px;
+}
 
 .article {
   max-width: 70%;
