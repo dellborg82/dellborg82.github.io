@@ -48,12 +48,8 @@ nav ul li a {
   height: auto;
 }
 .weather-summary {
-  top: 40px;
+  top: 20px;
   left: 40px;
-}
-
-.weather-summary h3,p {
-  margin: 22px auto;
 }
 
 .fiveDay {
