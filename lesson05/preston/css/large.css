@@ -58,7 +58,8 @@ nav ul li a {
 
 .fiveDay {
   display: grid;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
 }
 
 
@@ -68,6 +69,7 @@ nav ul li a {
 }
 
 .article img {
+  float: right;
   width: 300px;
 }
 
