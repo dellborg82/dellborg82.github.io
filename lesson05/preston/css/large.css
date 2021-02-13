@@ -52,6 +52,15 @@ nav ul li a {
   left: 40px;
 }
 
+.weather-summary {
+ 	top: 25px;
+	left: 50px;
+	background-color: rgba(90, 111, 230, 0.1);
+	border: 1px solid #000;
+  border-radius: 10px;
+	box-shadow: 0 0 30px #111;
+}
+
 .fiveDay {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

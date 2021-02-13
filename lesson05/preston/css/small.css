@@ -132,19 +132,23 @@ nav ul.hide {
 }
 
 .weather-summary {
+  display: block;
   position: absolute;
 	top: 25px;
-	left: 50px;
+	left: 25px;
 	background-color: rgba(90, 111, 230, 0.1);
 	border: 1px solid #000;
   border-radius: 10px;
-	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
-  width: 15%;
-}
+  }
 
-.weather-summary h3, p {
-  margin: 10px auto;
+.weather-summary h3 {
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.weather-summary p {
+  line-height : 5px;
 }
 
 .fiveDay {
@@ -163,11 +167,11 @@ nav ul.hide {
 }
 
 .article img {
-  position: absolute;
+  max-width: 30%;
   top: 25px;
   right: 25px;
   margin: 0 auto;
-  
+  float: right;
 }
 
 .contact {
