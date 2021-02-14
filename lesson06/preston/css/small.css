@@ -158,12 +158,12 @@ main.placeholder h1, h2, h3, h5 {
 }
 .weather-summary p {
   line-height : 5px;
-  
-}
+ }
 
 .fiveDay {
   font-family: 'Righteous', cursive;
   display: none;
+  text-align: center;
 }
 
 .article {
