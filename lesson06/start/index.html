@@ -28,7 +28,10 @@
 </head>
 <body>
 <!-- HEADER HERE -->
-	<header>
+	<header class="clearfix">
+        <figure class="logo">
+            <img src="images/logo0.png" alt="logo" srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x">
+        </figure>
  <h1>Company Name Here</h1>
         <h2>Possible Slogan or Tagline</h2>
     </header>
@@ -46,15 +49,24 @@
     
     
 <!-- CONTENT HERE -->
-    <main>
+    <main class="clearfix">
         <h1>Products</h1>
-        <p>The page name should almost exactly match the menu item. </p>
+        <picture class="myphoto">
+            <source media="(max-width: 200px)" srcset="images/golgotha200.jpg">
+            <source media="(max-width: 500px)" srcset="images/golgotha500.jpg">
+            <source media="(max-width: 800px)" srcset="images/golgotha800.jpg">
+                <img src="images/golgotha1100.jpg" alt="Church">
+        </picture>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Ut faucibus pulvinar elementum integer enim neque. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Dictum fusce ut placerat orci nulla pellentesque. In pellentesque massa placerat duis ultricies. Sit amet justo donec enim diam vulputate ut pharetra. Malesuada fames ac turpis egestas maecenas pharetra convallis. Amet luctus venenatis lectus magna. Id donec ultrices tincidunt arcu non sodales. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. In hendrerit gravida rutrum quisque non tellus orci. Eget velit aliquet sagittis id.
+
+            Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Amet purus gravida quis blandit turpis cursus in. Amet cursus sit amet dictum sit. Praesent elementum facilisis leo vel fringilla est ullamcorper. Aenean vel elit scelerisque mauris pellentesque. Diam vulputate ut pharetra sit amet aliquam id. In fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Cras sed felis eget velit aliquet sagittis id. Massa tempor nec feugiat nisl. Ac turpis egestas maecenas pharetra convallis. Non quam lacus suspendisse faucibus interdum posuere lorem. Amet mauris commodo quis imperdiet. Congue mauris rhoncus aenean vel elit scelerisque. Sed elementum tempus egestas sed sed risus pretium. Aliquam faucibus purus in massa tempor nec. </p>
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
         &copy; 201x &bull; Paul Cheney &bull; 123-555-6789
     </footer>
-
+    
 </body>
 </html>
