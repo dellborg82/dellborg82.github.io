@@ -208,7 +208,10 @@ main.placeholder h1, h2, h3, h5 {
 	right: 50px;
 }
 
-
+/*----------- GALLERY --------------*/
+.gallery {
+  display: grid;
+}
 
 /*----------- FOOTER --------------*/
 footer {
