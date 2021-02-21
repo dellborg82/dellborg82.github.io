@@ -82,7 +82,13 @@ main placeholder h1, h2, h3 {
   width: 300px;
 }
 
+.divgallery {
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.gallery img:hover {
+  box-shadow: 0em 0em 2em #000000;
+}
 
 
 } /*end large */

@@ -209,8 +209,36 @@ main.placeholder h1, h2, h3, h5 {
 }
 
 /*----------- GALLERY --------------*/
-.gallery {
+.divgallery {
   display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.divgallery figure {
+  margin: auto;
+}
+
+.gallery img {
+  margin: 2rem auto;
+  max-width: 300px;
+  width: 100%;
+  border: 2px solid #ffffff2a;
+  border-radius: 15%;
+  box-sizing: border-box;
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  margin: -20px;
+  
 }
 
 /*----------- FOOTER --------------*/
