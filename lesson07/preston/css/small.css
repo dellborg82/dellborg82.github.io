@@ -1,0 +1,241 @@
+/*----------- Special Message --------------*/
+
+#special-note {
+  background-color: #083d77;
+  color: yellow;
+  padding: 20px;
+  margin: auto;
+}
+
+.show-special {
+  display: block;
+}
+
+.hide-special {
+  display: none;
+}
+
+#special-note p {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+	background-color: #083d77;
+  color: white;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+  margin: 0 0 0 17px;
+  font-family: 'Righteous', cursive;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 20px;
+  font-size: .9rem;
+  padding-right: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  color: rgb(48, 44, 44);
+  margin-top: 0;
+  margin-right: 0;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+  background-color: #2E4057;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #eee;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+nav ul li a:hover {
+  background-color: #f4d35e;
+  color: black;
+}
+nav ul li.active a {
+  background-color: #A790A5;
+  color: black;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----------- MAIN --------------*/
+main.placeholder h1, h2, h3, h5 {
+  font-family: "Righteous", cursive;
+}
+
+.placeholder {
+  display: block;
+  margin: 1rem auto;
+  background-color: lightgray;
+  text-align: left;
+  
+}
+
+.heroDiv {
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero-ph img {
+  
+  width: 50%;
+  height: auto;
+}
+
+.myphoto img {
+  display: block;
+  width: 100%;
+}
+
+.weather-summary {
+  display: block;
+  position: absolute;
+	top: 25px;
+	left: 25px;
+	background-color: rgba(90, 111, 230, 0.1);
+	border: 1px solid #000;
+  border-radius: 10px;
+	box-shadow: 0 0 30px #111;
+  color: yellow;
+  
+  }
+
+.weather-summary h3 {
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px;
+}
+.weather-summary p {
+  line-height : 5px;
+  margin: 10px;
+ }
+
+
+.fiveDay {
+  font-family: 'Righteous', cursive;
+  display: none;
+  text-align: center;
+}
+
+.article {
+  position: relative;
+  margin: 40px auto;
+  max-width: 90%;
+  border: 1px solid black;
+  padding: 30px;
+  line-height: 1.7rem;
+  
+}
+
+.article img {
+  max-width: 30%;
+  top: 25px;
+  right: 25px;
+  margin: 0 auto;
+  float: right;
+}
+
+.contact {
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: "Righteous", cursive;
+}
+
+.contact-ph {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+}
+
+.contact-us {
+  position: absolute;
+  top: 25px;
+	right: 50px;
+}
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #083d77;
+  color: white;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+footer  a {
+  color: #f4d35e;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+

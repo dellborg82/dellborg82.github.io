@@ -1,0 +1,42 @@
+main {
+  display: grid;
+  justify-content: center;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  margin-top: 20px;
+  transition: filter 2s;
+  box-shadow: 0 0 30px black;
+  width: 300px;
+  height: 400px;
+}
+
+header,
+footer {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+footer a {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+footer a:hover {
+  background-color: blue;
+  color: white;
+}
+
+header {
+  padding: 10px;
+}
