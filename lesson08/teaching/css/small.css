@@ -1,0 +1,9 @@
+.term {
+  color: brown;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.definition {
+  color: green;
+}

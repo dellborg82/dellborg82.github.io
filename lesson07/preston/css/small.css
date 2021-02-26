@@ -221,14 +221,14 @@ main.placeholder h1, h2, h3, h5 {
   margin: auto;
 }
 
+
 .gallery img {
   margin: 2rem auto;
   max-width: 300px;
   width: 100%;
   border: 2px solid #ffffff2a;
-  border-radius: 15%;
-  box-sizing: border-box;
- 
+  border-radius: 15% 15% 0 0;
+  box-sizing: border-box; 
   justify-content: center;
   align-items: center;
   text-align: center;
