@@ -1,0 +1,45 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+  .fiveDay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+
+  .divgallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*---------- Home Page ------------*/
+.cards {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 10px;
+}
+
+.cards section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1em auto;
+}
+
+.cards section:nth-child(odd) img {
+  grid-column: 1;
+}
+
+.cards section:nth-child(odd) #details {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cards section #details {
+  padding: 70px 0;
+  text-align: center;
+}
+
+
+
+} /*end medium */

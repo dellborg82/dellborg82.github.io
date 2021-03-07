@@ -1,0 +1,114 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+main, footer {
+    max-width: 64rem;
+    margin:auto;
+}
+
+header button {
+  display: none;
+}
+
+/* NAV CSS */
+
+nav {
+  background: #2E4057; 
+}
+    
+nav ul.hide {
+  display: flex;
+}
+  
+nav ul {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+  
+nav ul li {
+  flex: 1 1 100%;
+  float: left
+}
+  
+nav ul li a {
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  padding: .6rem 1rem;
+}
+
+/* Main CSS */
+main placeholder h1, h2, h3 {
+  font-family: "Righteous", cursive;
+}
+
+.heroDiv {
+  margin: 10px auto; 
+  width: auto; 
+}
+
+.hero-ph {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+}
+.weather-summary {
+  top: 20px;
+  left: 40px;
+}
+
+.weather-summary {
+ 	top: 25px;
+	left: 50px;
+	background-color: rgba(90, 111, 230, 0.1);
+	border: 1px solid #000;
+  border-radius: 10px;
+	box-shadow: 0 0 30px #111;
+}
+
+.fiveDay {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+
+
+.article {
+  max-width: 70%;
+}
+
+.article img {
+  float: right;
+  width: 300px;
+}
+
+.divgallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery img:hover {
+  box-shadow: 0em 0em 2em #000000;
+}
+
+/*-------- Form Styling -----------*/
+
+form label.sbs {
+  padding: .4rem 0;
+}
+
+/*---------- Home Page ------------*/
+
+.cards {
+  max-width: 64rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.cards section {
+  display: block;
+}
+
+
+
+} /*end large */
