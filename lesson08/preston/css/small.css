@@ -262,7 +262,7 @@ form label.top, form div {
   font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, .formfield {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -273,6 +273,10 @@ form label.top input, form label.top select {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.formfield {
+  margin: 1rem 0;
 }
 
 form label.sbs {
