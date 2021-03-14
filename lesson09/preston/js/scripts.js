@@ -51,3 +51,11 @@ if (dayNumber == 5) {
     element.classList.add("hide-special");
 }
 }
+
+function font() {
+WebFont.load({
+  google: {
+    families: ["Righteous", "cursive"],
+  },
+});
+}
