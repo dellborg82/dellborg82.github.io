@@ -21,22 +21,22 @@ const apiURL2 = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=647
 
 fetch(apiURL2)
     .then((response) => response.json())
-    .then((weatherInfo) => {
-    console.log(weatherInfo);
+    .then((forecastInfo) => {
+    console.log(forecastInfo);
 
-    //document.getElementById("townName").textContent = weatherInfo.city.name;
+    //document.getElementById("townName").textContent = forecastInfo.city.name;
 
     let forecastDayNumber = todayDayNumber;
     //console.log(forecastDayNumber);
 
     //Create a Table & 3 Table Rows:
-    let theDay = document.createElement("table");
+    let day = document.createElement("table");
     let tr_1 = document.createElement("tr");
     let tr_2 = document.createElement("tr");
     let tr_3 = document.createElement("tr");
 
-        for (i = 0; i < weatherInfo.list.length; i++) {
-            var time = weatherInfo.list[i].dt_txt;
+        for (i = 0; i < forecastInfo.list.length; i++) {
+            var time = forecastInfo.list[i].dt_txt;
 
             if (time.includes('18:00:00')){
                 
@@ -51,24 +51,24 @@ fetch(apiURL2)
                 tr_1.appendChild(theDayName);
 
                 //Img:
-                let iconbox = document.createElement("td");
-                let iconcode = weatherInfo.list[i].weather[0].icon;
+                let ibox = document.createElement("td");
+                let iconcode = forecastInfo.list[i].weather[0].icon;
                 let iconPath = "https://openweathermap.org/img/w/" + iconcode + ".png";
                 let theIcon = document.createElement("img");
                 theIcon.src = iconPath;
-                iconbox.appendChild(theIcon);
-                tr_2.appendChild(iconbox);
+                ibox.appendChild(theIcon);
+                tr_2.appendChild(ibox);
 
                 //Temp:
                 let theTemp = document.createElement("td");
-                theTemp.textContent =  Math.round(weatherInfo.list[i].main.temp) + "\xB0";
+                theTemp.textContent =  Math.round(forecastInfo.list[i].main.temp) + "\xB0";
                 tr_3.appendChild(theTemp);
 
-                theDay.appendChild(tr_1);
-                theDay.appendChild(tr_2);
-                theDay.appendChild(tr_3);
+                day.appendChild(tr_1);
+                day.appendChild(tr_2);
+                day.appendChild(tr_3);
 
-                document.getElementById('five-day').appendChild(theDay);
+                document.getElementById('five-day').appendChild(day);
 
             }
         }
