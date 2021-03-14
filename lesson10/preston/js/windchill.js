@@ -1,16 +1,27 @@
-// Get Temp number in the Console
-const tempNumber = parseFloat(document.getElementById("temp").textContent);
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=647deaef50861934976f3e67d4453af9&units=imperial";
 
-//Get Wind Speed
-const speedNumber = parseFloat(document.getElementById("speed").textContent);
 
-//calculate Wind Chill
-let windChill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
-windChill = Math.round(windChill);
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        console.log(jsObject)
+        document.getElementById('name').textContent = jsObject.name;
+        document.getElementById('current-temp').textContent = jsObject.main.temp;
+        document.getElementById('temp-max').textContent = jsObject.main.temp_max;
+        document.getElementById('humidity').textContent = jsObject.main.humidity;
+        document.getElementById('speed').textContent = jsObject.wind.speed;
 
-// If Wind Chill exists Display Wind Chill, Else Display No Wind Chill today
-if (tempNumber <= 50 && speedNumber > 3) {
-  document.getElementById("chill").textContent = "Wind Chill is " + windChill + "\xB0F";
-} else {
-  document.getElementById("chill").textContent = "No Wind Chill Today"
-}
+        let temperature = parseFloat(document.getElementById('current-temp').innerHTML);
+        let speed = parseFloat(document.getElementById('speed').innerHTML);
+
+        let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(speed, 0.16))
+        + (0.4275 * temperature * Math.pow(speed, 0.16));
+
+        if (temperature <= 50 && speed > 3) {
+
+            document.getElementById('chill').innerHTML = Math.round(windchill);
+          } else {
+      
+            windchill = "N/A";
+          }
+    });

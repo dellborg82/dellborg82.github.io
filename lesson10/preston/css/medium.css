@@ -40,6 +40,10 @@
   text-align: center;
 }
 
+/*----------- FORECAST --------------*/
+#five-day {
+  display: block;
+}
 
 
 } /*end medium */

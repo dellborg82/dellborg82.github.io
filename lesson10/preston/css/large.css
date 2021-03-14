@@ -109,6 +109,14 @@ form label.sbs {
   display: block;
 }
 
+/*----------- FORECAST --------------*/
+#five-day table {
+    width: 100%;
+}
+
+#five-day img {
+    width: 60px;
+}
 
 
 } /*end large */

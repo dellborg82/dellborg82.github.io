@@ -73,47 +73,19 @@
         </picture>
           <div class="weather-summary">
             <h3>Weather Summary</h3>
-            <p>Currently: Sunny</p>
-            <p>Temperature: <span id="temp">32</span> &#xb0;F</p>
-            <p>Wind Speed: <span id="speed">35</span>mph</p>
-            <p><span id="chill">Wind Chill is: 0&#xb0;F</span></p> 
-            <p>Humidity: 69&#x25;</p>
-            
+            <p>Town Name: <span id="name"></span></p>
+            <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+            <p>High: <span id="temp-max"></span>&deg;F</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p>Windchill: <span id="chill">message</span></p>           
           </div>
         </div>
       </section>
       <section class="placeholder">
         <h2>Five Day Forecast</h2>
       </section>
-      <section class="placeholder">
-        <div class="fiveDay">
-          <div>
-            <h5>Sunday</h5>
-            <img src="images/sunny.jpg" alt="Sunny" />
-            <p>80 &#xb0;F</p>
-          </div>
-          <div>
-            <h5>Monday</h5>
-            <img src="images/partially-cloudy.jpg" alt="Partially Cloudy" />
-            <p>75 &#xb0;F</p>
-          </div>
-          <div>
-            <h5>Tuesday</h5>
-            <img src="images/rainy.jpg" alt="Rainy" />
-            <p>60 &#xb0;F</p>
-          </div>
-          <div>
-            <h5>Wednesday</h5>
-            <img src="images/lighting.jpg" alt="Lightning" />
-            <p>50 &#xb0;F</p>
-          </div>
-          <div>
-            <h5>Thursday</h5>
-            <img src="images/snow.jpg" alt="Snow" />
-            <p>35 &#xb0;F</p>
-          </div>
-        </div>
-      </section>
+      <div id="five-day"></div>
       <section class="placeholder">
         <div class="article">
           <div class="article-ph">
@@ -177,5 +149,6 @@
         });
       </script>
       <script src="js/windchill.js"></script>
+      <script src="js/forcast.js"></script>
   </body>
 </html>

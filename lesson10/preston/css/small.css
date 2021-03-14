@@ -365,6 +365,50 @@ footer  a {
   color: #f4d35e;
 }
 
+/*----------- FORECAST --------------*/
+#five-day {
+  display: none;
+  
+}
+
+#five-day table {
+  margin: 10px auto;
+  width: 75%;
+  text-align: center;
+  border-collapse: collapse;
+ 
+}
+
+#five-day th {
+  background-color: #083d77;
+  color: white;
+  
+}
+
+#five-day th, td {
+  padding: 10px;
+  border: 2px double white;
+  border-style: solid black;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+#five-day tr:nth-child(2) td {
+  border-bottom: none;
+  padding-bottom:5px;
+  
+}
+
+#five-day tr:nth-child(3) td {
+  border-top: none;
+  
+}
+
+#five-day img {
+  width: 45px;
+}
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
