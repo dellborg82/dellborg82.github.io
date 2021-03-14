@@ -1,15 +1,16 @@
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=647deaef50861934976f3e67d4453af9&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5783695&appid=647deaef50861934976f3e67d4453af9&units=imperial";
 
 
 fetch(apiURL)
     .then((response) => response.json())
-    .then((jsObject) => {
-        console.log(jsObject)
-        document.getElementById('name').textContent = jsObject.name;
-        document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('temp-max').textContent = jsObject.main.temp_max;
-        document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('speed').textContent = jsObject.wind.speed;
+    .then((weatherInfo) => {
+        //console.log(weatherInfo)
+        document.getElementById('currconditions').innerHTML=weatherInfo.weather[0].description;
+        document.getElementById('current-temp').textContent = Math.round(weatherInfo.main.temp);
+        document.getElementById('temp-max').textContent = Math.round(weatherInfo.main.temp_max);
+        document.getElementById('temp-low').textContent = Math.round(weatherInfo.main.temp_min);
+        document.getElementById('humidity').textContent = weatherInfo.main.humidity;
+        document.getElementById('speed').textContent = weatherInfo.wind.speed;
 
         let temperature = parseFloat(document.getElementById('current-temp').innerHTML);
         let speed = parseFloat(document.getElementById('speed').innerHTML);

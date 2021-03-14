@@ -1,10 +1,10 @@
 
 
 const d = new Date();
-console.log(d);
+//console.log(d);
 
 const todayDayNumber = d.getDay();
-console.log(todayDayNumber);
+//console.log(todayDayNumber);
 
 const weekday = new Array(7);
 weekday[0] = "Sun";
@@ -61,7 +61,7 @@ fetch(apiURL2)
 
                 //Temp:
                 let theTemp = document.createElement("td");
-                theTemp.textContent = weatherInfo.list[i].main.temp + "\xB0";
+                theTemp.textContent =  Math.round(weatherInfo.list[i].main.temp) + "\xB0";
                 tr_3.appendChild(theTemp);
 
                 theDay.appendChild(tr_1);
