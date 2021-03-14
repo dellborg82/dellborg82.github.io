@@ -10,7 +10,7 @@ fetch(apiURL)
         document.getElementById('temp-max').textContent = Math.round(weatherInfo.main.temp_max);
         document.getElementById('temp-low').textContent = Math.round(weatherInfo.main.temp_min);
         document.getElementById('humidity').textContent = weatherInfo.main.humidity;
-        document.getElementById('speed').textContent = weatherInfo.wind.speed;
+        document.getElementById('speed').textContent = Math.round(weatherInfo.wind.speed);
 
         let temperature = parseFloat(document.getElementById('current-temp').innerHTML);
         let speed = parseFloat(document.getElementById('speed').innerHTML);

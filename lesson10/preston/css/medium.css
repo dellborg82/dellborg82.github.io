@@ -43,6 +43,11 @@
 /*----------- FORECAST --------------*/
 #five-day {
   display: block;
+
+}
+
+#five-day table {
+  width: 100%;
 }
 
 
