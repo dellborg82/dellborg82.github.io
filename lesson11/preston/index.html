@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Local weather information for local Ham Radio Operators"
+    />
+    <meta name="author" content="Aaron Stevens" />
+    <title>Preston Town Page</title>
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- Favicon link-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Linked Google Fonts (if any)-->
+    
+  
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+    <!-- Java Scripts-->
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <div id="special-note" class="hide-special">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park pavilion.</p>
+      </div>
+      <img src="images/logo.png" alt="logo" />
+      <section class="headings">
+        <h1>The Hammers Weather Site</h1>
+        <div class="motto">The Hammers Guide to Weather</div>
+      </section>
+      <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+      <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main class="clearfix">
+      <section class="placeholder">
+        <h1>Preston Idaho</h1>
+      </section>
+      <section class="placeholder">
+        <div class="heroDiv">
+          <div class="hero-ph"></div>
+          <img
+            src="images/preston-city.jpg"
+            alt="Silhouette of Preston City"
+            class="prestonImg"
+          />
+        
+          <div class="weather-summary">
+            <h3>Weather Summary</h3>
+            <p>Currently: Sunny</p>
+            <p>Temperature: <span id="temp">32</span> &#xb0;F</p>
+            <p>Wind Speed: <span id="speed">35</span>mph</p>
+            <p><span id="chill">Wind Chill is: 0&#xb0;F</span></p> 
+            <p>Humidity: 69&#x25;</p>
+            
+          </div>
+        </div>
+      </section>
+      <div class="cards"></div>
+      <section class="placeholder">
+        <h2>Location / Contact</h2>
+        <section class="placeholder">
+          <div class="contact">
+            <div class="contact-ph">
+            <h3>Location</h3>
+            <p>123 Main Street<br />Tooele, Utah 84074</p>
+            </div>
+            <div class="contact-us">
+              <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.jpg" alt="Facebook Icon" width="50" height="50"></a>
+              <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.jpg" alt="LinkedIn Icon" width="50" height="50"></a>
+              <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.jpg" alt="Instagram Icon" width="50" height="50"></a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <!-- FOOTER HERE -->
+    <footer>
+      <p>
+        &#xA9;
+        <script>
+          getFullYear();
+        </script>
+        | Aaron Stevens | Utah |
+        <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+      </p>
+      <p><span id="currentDate"></span></p>
+      <script>
+        getCurrentDate();
+      </script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      font();
+    </script> 
+      <script src="js/windchill.js"></script>
+      <script src="js/index.js"></script>
+  </body>
+</html>
