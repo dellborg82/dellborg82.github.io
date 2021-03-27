@@ -20,69 +20,110 @@ body {
   
 }
 
-/* header rules here */
+/*----------- HEADER --------------*/
+
 header {
-  background-color: #17a8e4;
-  padding: 1rem 2%;
-  text-align: center;
-  border-radius: .5rem;
+	background-color: #083d77;
+  color: white;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
-header h1 {
-  margin: 0;
+header img {
+	width: 80px;
+	height: auto;
 }
 
-header h2 {
-  margin: 0;
+.headings {
+	display: flex;
+	flex-direction: column;
 }
 
-body figure img {
-  width: 100%;
-  border: 1px solid darkblue;
-  border-radius: .5rem;
+.headings h1 {
+	font-size: 1.6rem;
+  margin: 0 0 0 17px;
+  font-family: 'Darker Grotesque', cursive;
 }
 
-body figcaption {
-  text-align: center;
-  font-size: .8rem;
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 20px;
+  font-size: .9rem;
+  padding-right: 10px;
+  font-family: 'Darker Grotesque', cursive;
 }
 
-h3, .sitename, .sitelink {
-  text-align: center;
-}
-
-.tile-1, .tile-2, .tile-3 {
-  max-width: 330px;
-  border: 1px solid darkblue;
-  margin: 10px auto;
-  border-radius: .5rem;
-  background-color: lightgray;
-  
-}
-
-.title-h3 {
-  background-color: yellow;
-  padding: .5rem;
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  color: rgb(48, 44, 44);
   margin-top: 0;
-  border-radius: .5rem;
-  
+  margin-right: 0;
 }
 
-.title-description {
-  text-align: justify;
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+  background-color: #2E4057;
+  color: white;
+  font-family: Verdana, sans-serif;
 }
 
-figure {
-  width: 100%;
-  margin-left: 0;
-}
-a:link {
-  color: #000047;
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
 }
 
-footer {
-  background-color: #17a8e4;
-  padding: 1rem 2%;
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #eee;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
   text-align: center;
-  border-radius: .5rem;
+}
+
+
+nav ul li a:hover {
+  background-color: #f4d35e;
+  color: black;
+}
+nav ul li.active a {
+  background-color: #A790A5;
+  color: black;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #083d77;
+  color: white;
+  text-align: center;
+  font-family: 'Darker Grotesque', cursive;
+}
+
+footer  a {
+  color: #f4d35e;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
