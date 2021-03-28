@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Tooele Chamber of Commerce Home page"
-    />
+    <meta name="description" content="Tooele Chamber of Commerce Home page" />
     <meta name="author" content="Aaron Stevens" />
     <title>Chamber of Commerce Home</title>
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
@@ -34,41 +31,136 @@
     <header class="clearfix">
       <img src="images/logo.png" alt="logo" />
       <section class="headings">
-        <h1>The Hammers Weather Site</h1>
-        <div class="motto">The Hammers Guide to Weather</div>
+        <h1>Ebbyville</h1>
+        <div class="motto">The most beautiful city in Utah</div>
       </section>
       <button onclick="toggleMenu()">&#9776;</button>
     </header>
 
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
-      
-        <ul id="primaryNav" class="hide">
-          <li class="active"><a href="/final/index.html">Home</a></li>
-          <li><a href="/final/city.html">City</a></li>
-          <li><a href="/final/join.html">Join</a></li>
-          <li><a href="/final/directory.html">Directory</a></li>
-          <li><a href="/final/contact.html">Contact US</a></li>
-        </ul>
-      </nav>
+      <ul id="primaryNav" class="hide">
+        <li class="active"><a href="/final/index.html">Home</a></li>
+        <li><a href="/final/city.html">City</a></li>
+        <li><a href="/final/join.html">Join</a></li>
+        <li><a href="/final/directory.html">Directory</a></li>
+        <li><a href="/final/contact.html">Contact US</a></li>
+      </ul>
+    </nav>
 
     <!-- CONTENT HERE -->
-    <main></main>
+    <main>
+      <body>
+        <section class="homeSection">
+          <div class="column-1">
+            <h3 class="title-h3">Ebbyville's Chamber of Commerce</h3>
+            <p>
+              The Chamber of Commerce is here to help all kinds of people in the
+              community. Whether your looking to move here, or just visiting on
+              Vacation. We can help you find what your looking for.
+            </p>
+            <h2>Our Goals are:</h2>
+            <ul class="homeList">
+              <li>
+                Assist famlies who are moving to the area find local businesses
+                to help them with all of their needs.
+              </li>
+              <li>
+                Assist those who are here visiting or on Vacation find fun
+                places to visit in the area to attend.
+              </li>
+              <li>
+                Promote local businesses to help them succeed with resources.
+              </li>
+            </ul>
+          </div>
+          <div class="column-2">
+            <h3 class="title-h3">Melanie's Health</h3>
+            <a href="https://melanieshealth.com/" class="sitelink"
+              >Melanies's Health</a
+            >
+            <figure>
+              <img src="images/whitespace.jpg" alt="Melanies's Health Logo" />
+            </figure>
+            <p class="tile-discription">
+              Melanie's Health is your one stop shop for everything natural.
+              From Natural Remiedies, to Health foods, Bulk Foods, Natural
+              Sweets.
+            </p>
+            <p>Melanie's Health has it all.</p>
+            <h3 class="title-h3">Desert Peak Complex</h3>
+            <a href="https://deseretpeakcomplex.com/" class="sitelink"
+              >Desert Peak Complex
+            </a>
+            <figure>
+              <img src="images/whitespace.jpg" alt="Desert Peak Complex Logo" />
+            </figure>
+            <p class="tile-discription">
+              Weither your into BMX Biking, Rodeo's, Demolition Derbies,
+              Swimming, Batting Cages, Baseball / Softball, or need a place to
+              hold a big event. Desert Peak has it all.
+            </p>
+          </div>
+          <div class="column-3">
+            <img
+              src="images/home/swimming.jpeg"
+              alt="Desert Peak Complex Swimming"
+            />
+            <img
+              src="images/home/city.jpg"
+              alt="Part of Tooele City from the Air"
+            />
+          </div>
+        </section>
+      </body>
+    </main>
 
     <!-- FOOTER HERE -->
     <footer>
-      <p>
-        &#xA9;
-        <script>
-          getFullYear();
-        </script>
-        | Aaron Stevens | Utah |
-        <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
-      </p>
-      <p><span id="currentDate"></span></p>
-      <script>
-        getCurrentDate();
-      </script>
+      <section class="bottom">
+        <div class="footer-address">
+          <h2>Contact Us</h2>
+          <p>
+            <strong>Address:</strong>
+            <br />
+            Ebbyville Chamber of Commerce<br />
+            123 Main Street <br />
+            EbbyVille UT, 84074
+          </p>
+        </div>
+        <div class="contact">
+          <p>
+            <strong>Phone:</strong><br />
+            (435) 867-5309<br />
+            <strong>Email:</strong> <br />
+            contact@ebbyville.com
+          </p>
+        </div>
+        <img src="images/tooelecity.jpg" alt="Map of Tooele" />
+      </section>
+      <div class="footer-social">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img
+            src="images/facebook.jpg"
+            alt="Facebook Icon"
+            width="50"
+            height="50"
+        /></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><img
+            src="images/linkedin.jpg"
+            alt="LinkedIn Icon"
+            width="50"
+            height="50"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            src="images/instagram.jpg"
+            alt="Instagram Icon"
+            width="50"
+            height="50"
+        /></a>
+      </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

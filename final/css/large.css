@@ -5,6 +5,7 @@
       margin:auto;
   }
 }
+/*------------- Header   -------------*/
 
   header button {
     display: none;
@@ -36,3 +37,30 @@
     border-right: 1px solid rgba(0, 0, 0, 0.3);
     padding: .6rem 1rem;
   }
+
+/*------------- Footer -------------*/
+
+section.bottom {
+  width: 90%;
+  margin: 2rem 0 2rem 5rem;
+  grid-template-columns: auto auto auto;
+}
+
+.address h2 {
+  margin-left: -1rem;
+}
+
+.contact p {
+  margin-top: 4rem;
+}
+
+.contact img {
+  margin-right: 7rem;
+}
+
+
+/*------------- Home Page -------------*/
+.homeSection {
+  column-count: 3;
+}
+
