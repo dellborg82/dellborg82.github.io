@@ -27,14 +27,21 @@
   </head>
   <body>
     <!-- HEADER HERE -->
-    <header></header>
+    <header class="clearfix">
+      <img src="images/logo.png" alt="logo" />
+      <section class="headings">
+        <h1>Ebbyville</h1>
+        <div class="motto">The most beautiful city in Utah</div>
+      </section>
+      <button onclick="toggleMenu()">&#9776;</button>
+    </header>
 
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
       
         <ul id="primaryNav" class="hide">
           <li><a href="/final/index.html">Home</a></li>
-          <li><a href="/final/city.html">City</a></li>
+          <li><a href="/final/ebbyville.html">Ebbyville</a></li>
           <li><a href="/final/join.html">Join</a></li>
           <li class="active"><a href="/final/directory.html">Directory</a></li>
           <li><a href="/final/contact.html">Contact US</a></li>
@@ -90,10 +97,12 @@
                   height="50"
               /></a>
             </div>
+            <p>Last Updated: <span id="lastupdated"></span></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       font();
     </script>
+     <script src="js/lastupdated.js"></script>
   </body>
 </html>

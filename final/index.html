@@ -41,7 +41,7 @@
     <nav class="clearfix">
       <ul id="primaryNav" class="hide">
         <li class="active"><a href="/final/index.html">Home</a></li>
-        <li><a href="/final/city.html">City</a></li>
+        <li><a href="/final/ebbyville.html">Ebbyville</a></li>
         <li><a href="/final/join.html">Join</a></li>
         <li><a href="/final/directory.html">Directory</a></li>
         <li><a href="/final/contact.html">Contact US</a></li>
@@ -51,6 +51,21 @@
     <!-- CONTENT HERE -->
     <main>
       <body>
+        <section class="weather">
+          <div id="five-day"></div>
+          <div class="hideWeather">
+            <div class="weather-summary">
+              <h3>Weather Summary</h3>
+              <p>Currently: <span id="currconditions"></span></p>
+              <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+              <p>High: <span id="temp-max"></span>&deg;F</p>
+              <p>Low: <span id="temp-low"></span>&deg;F</p>
+              <p>Humidity: <span id="humidity"></span>%</p>
+              <p>Wind Speed: <span id="speed"></span> mph</p>
+              <p>Windchill: <span id="chill">message</span>&deg;F</p>
+            </div>
+          </div>
+        </section>
         <section class="homeSection">
           <div class="column-1">
             <h3 class="title-h3">Ebbyville's Chamber of Commerce</h3>
@@ -88,18 +103,10 @@
               Sweets.
             </p>
             <p>Melanie's Health has it all.</p>
-            <h3 class="title-h3">Desert Peak Complex</h3>
-            <a href="https://deseretpeakcomplex.com/" class="sitelink"
-              >Desert Peak Complex
-            </a>
-            <figure>
-              <img src="images/whitespace.jpg" alt="Desert Peak Complex Logo" />
-            </figure>
-            <p class="tile-discription">
-              Weither your into BMX Biking, Rodeo's, Demolition Derbies,
-              Swimming, Batting Cages, Baseball / Softball, or need a place to
-              hold a big event. Desert Peak has it all.
-            </p>
+            <section class="upcomming_events">
+              <h3>Upcomming Events</h3>
+              <div id="events-box"></div>
+            </section>
           </div>
           <div class="column-3">
             <img
@@ -161,10 +168,14 @@
             height="50"
         /></a>
       </div>
+      <p>Last Updated: <span id="lastupdated"></span></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       font();
     </script>
+    <script src="js/weather.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/lastupdated.js"></script>
   </body>
 </html>

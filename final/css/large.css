@@ -38,6 +38,12 @@
     padding: .6rem 1rem;
   }
 
+  /*-------- Form Styling -----------*/
+
+form label.sbs {
+  padding: .4rem 0;
+}
+
 /*------------- Footer -------------*/
 
 section.bottom {
@@ -64,3 +70,6 @@ section.bottom {
   column-count: 3;
 }
 
+.weather {
+  column-count: 3;
+}
