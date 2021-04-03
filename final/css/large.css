@@ -73,3 +73,9 @@ section.bottom {
 .weather {
   column-count: 3;
 }
+
+
+/*------------- Directory -------------*/
+.cards {
+  grid-template-columns: auto auto auto;
+}

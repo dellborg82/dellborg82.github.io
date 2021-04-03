@@ -2,58 +2,65 @@
     "business": [
       {
         "name": "Melanie's Health",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+        "photo": "melanieshealth.jpg",
         "Website": "https://melanieshealth.com/",
-        "type": "https://melanieshealth.com/",
+        "type": "Melanie's Health is your one stop shop for everything natural. From Natural Remiedies, to Health foods, Bulk Foods, Natural Sweets.",
         "yearFounded": 1858
       },
       {
-        "name": "#",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "name": "Desert Peak Complex",
+        "photo": "deseretpeak.png",
+        "Website": "https://deseretpeakcomplex.com/",
+        "type": "The Deseret Peak complex offeres many amenities, including Swimming, Softball / Base ball Diamonds, Batting Cages, Rodeo Grounds, converts, the Lantern Festival, a big building that can be rented out. ",
         "yearFounded": 2000
       },
       {
-        "name": "#",
+        "name": "Tooele Trail Racing",
         "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "Website": "www.tooeletrailracing.com",
+        "type": "Trail races in the nearby Oquirh Mountains. We've run 4 races, and will be introducing our 5th race this year",
+        "yearFounded": 2017
+      },
+      {
+        "name": "Limousine of Utah",
+        "photo": "limoofutah.png",
+        "Website": "http://www.limousineofutah.com/",
+        "type": "Providing Luxury Limousine and Party Bus Service for Salt Lake city and surrounding areas",
         "yearFounded": 2000
       },
       {
-        "name": "#",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "name": "ADM Productions",
+        "photo": "admproductions.png",
+        "Website": "http://www.admdj.com",
+        "type": "Utah-based DJ service serving weddings and events.",
         "yearFounded": 2000
       },
       {
-        "name": "#",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "name": "In & Out Tax Services",
+        "photo": "inandout.png",
+        "Website": "https://www.inandout.tax",
+        "type": "Taxes, bookkeeping, & payroll. 435-882-0768, tax. Inandout@gmail.com, 185 N main, StE 401, Tooele",
         "yearFounded": 2000
       },
       {
-        "name": "#",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "name": "Aloha Pest Control,",
+        "photo": "aloha.jpg",
+        "Website": "https://aloha-pest-control.business.site/",
+        "type": "we do pest control and other services, alohapest.co. We’ve been in busy 20 months but my oldest employee has 30 years of experience",
         "yearFounded": 2000
       },
       {
-        "name": "#",
-        "photo": "#",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "Website": "#",
-        "type": "#",
+        "name": "Devil's Details A high-end auto detailing",
+        "photo": "devilsdetails.jpg",
+        "Website": "https://www.devilsdetailsgb.com",
+        "type": "Specializing in paint corrections and ceramic coatings while being highly effective with interior details as well. I've been in business for about 2yrs and have clients from as far away as Las Vegas, NV.",
+        "yearFounded": 2000
+      },
+      {
+        "name": "Summer Flowers Creations",
+        "photo": "flowers.jpb",
+        "Website": "SummerFlowersCreations.com",
+        "type": "Boutique crafts and decor made with love",
         "yearFounded": 2000
       }
     ]

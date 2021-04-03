@@ -241,6 +241,15 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
+
+/*---------- Directory ------------*/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+ }
+ 
  
 /*----------- FOOTER --------------*/
 footer {
