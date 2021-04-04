@@ -35,9 +35,11 @@ section.bottom {
 
   
 /*------------- Home Page -------------*/
-.homeSection {
-  
-  column-count: 2;
+
+
+/*------------- Directory -------------*/
+.cards {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
