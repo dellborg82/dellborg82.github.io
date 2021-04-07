@@ -67,7 +67,7 @@ section.bottom {
 
 /*------------- Home Page -------------*/
 .homeSection {
-  column-count: 3;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .weather {
@@ -78,4 +78,30 @@ section.bottom {
 /*------------- Directory -------------*/
 .cards {
   grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/*------------- ebbyVille -------------*/
+.ebbySection {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*------------- Contact US -------------*/
+.contactSection {
+ 
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.contactMap {
+  display: block;
+  width: 80%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1rem auto;
+  background-color: #FFCAAF;
 }

@@ -1,4 +1,4 @@
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
 
 .content {
 
@@ -19,6 +19,8 @@ body {
   font-size: 16px;
   
 }
+
+
 
 /*----------- HEADER --------------*/
 
@@ -66,6 +68,9 @@ nav button {
   margin-right: 0;
 }
 
+.logo {
+  border-radius: 50px;
+}
 
 /*----------- NAVIGATION --------------*/
 
@@ -108,11 +113,15 @@ nav ul.hide {
   display: none;
 }
 
+/*------------- All Columns-------------*/
+.homeSection, .ebbySection, .cards, .contactSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}  
+
 /*------------- Home Page -------------*/
 .homeSection, .ebbySection {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
   width: 100%;
   margin-top: 2rem;
   font-family: "Darker Grotesque";
@@ -121,7 +130,7 @@ nav ul.hide {
 
 .column-1, .column-2, .column-3 {
   border-radius: .5rem;
-  background-color: rgb(243, 135, 135);
+  background-color: #FFCAAF;
   padding: 1rem;
 }
 
@@ -169,22 +178,30 @@ nav ul.hide {
   margin: 10px;
  }
 
+ .column-1 img, .column-2 img, .column-3 img {
+   margin: 5px auto;
+   box-shadow: 5px 5px 5px 5px #7785AC;
+   border-radius: .5rem;
+ }
 
+
+ .column-1, .column-2, .column-3 {
+  margin: 5px auto;
+  box-shadow: 5px 5px 5px 5px #7785AC;
+}
  /*----------- Events --------------*/
 .upcomming_events {
-  font-family: 'Righteous', cursive;
+  font-family: "Darker Grotesque";
   text-align: center;
 }
 
 .upcomming_events h3 {
-  background-color: #083d77;
-  color: white;
-  font-size: 1.5rem;
-  padding: 10px;
-  border: 2px double white;
+  
+  color: black;
+  border: 2px double black;
   border-radius: 10px;
   border-width: 2px;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -195,6 +212,7 @@ form fieldset {
   border: 1px solid #445ba9;
   border-radius: 10px;
   padding: .5rem 2%;
+  background-color: #FFCAAF;
 }
 
 form legend {
@@ -251,11 +269,17 @@ form label.top input:required:valid {
 /*---------- Directory ------------*/
 
 .cards {
-  display: grid;
-  grid-template-columns: 1fr;
   justify-content: center;
   align-content: center;
   grid-gap: 1rem;
+  box-sizing: border-box;
+  border: 2px black;
+  background-color: #FFCAAF;
+  margin: 5px;
+ }
+
+ .details {
+  border: 1px red;
  }
  
  
@@ -305,7 +329,42 @@ footer {
   border-radius: 10px;
 }
   
+/*----------- City --------------*/
+.ebbyimage3 {
+ margin: auto 0;
+}
 
+/*------------- ebbyVille -------------*/
+
+
+
+/*----------- Contact --------------*/
+.contactSection {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+.contact-1 {
+
+  background-color: #FFCAAF;
+}
+
+
+.contact-2 {
+  text-align: center;
+  background-color: #FFCAAF;
+}
+
+.contactMap {
+  display: block;
+  width: 80%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1rem auto;
+  background-color: #FFCAAF;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

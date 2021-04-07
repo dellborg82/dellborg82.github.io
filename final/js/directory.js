@@ -38,7 +38,7 @@ fetch(requestURL)
         details.appendChild(website);
         details.appendChild(type);
 
-        details.appendChild(yearFounded);
+        
         document.querySelector('div.cards').appendChild(card);
       
    }
