@@ -76,47 +76,41 @@ header button {
   display: block;
 }
 
-
+nav ul.hide {
+  display: none;
+}
 /*----------- NAVIGATION --------------*/
 
 nav {
-  background-color: #7785AC;
-  color: white;
-  font-family: Verdana, sans-serif;
+  background-color: #2E4057;
+  color: white;;
 }
 
 nav ul {
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
-
 }
 
 nav ul li a {
   display: block;
-  padding: .8rem 2%;
-  text-decoration: none;
   color: #eee;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 0;
+  text-decoration: none;
   font-size: 0.9rem;
   text-align: center;
 }
 
-
 nav ul li a:hover {
-  background-color: #A5E6BA;
+  background-color: #f4d35e;
   color: black;
 }
 nav ul li.active a {
-  background-color: #9AC6C5;
+  background-color: #A790A5;
   color: black;
 }
 
-nav ul.hide {
-  display: none;
-}
+
 
 /*------------- All Columns-------------*/
 .homeSection, .ebbySection, .cards, .contactSection {
@@ -334,6 +328,9 @@ footer {
   border-radius: 10px;
 }
   
+.footer-p {
+  text-align: center;
+}
 /*----------- City --------------*/
 .ebbyimage3 {
  margin: auto 0;

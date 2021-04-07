@@ -2,6 +2,14 @@
 @media only screen and (min-width: 35rem) {
   /*----------- BODY --------------*/
 
+
+
+  /*----------- MAIN --------------*/
+
+  /*----------- FOOTER --------------*/
+} /* end of media query */
+
+
   /*----------- HEADER --------------*/
   header img {
     width: auto;
@@ -16,20 +24,4 @@
   }
 
   /*----------- NAVIGATION --------------*/
-  nav ul {
-    display: flex;
-    margin-left: 2%;
-  }
-  nav ul li {
-    flex: 1 1 100%;
-    float: left;
-  }
-
-  nav ul li a {
-    padding: 0.5rem 1rem;
-  }
-
-  /*----------- MAIN --------------*/
-
-  /*----------- FOOTER --------------*/
-} /* end of media query */
+ 
