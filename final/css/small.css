@@ -72,6 +72,11 @@ nav button {
   border-radius: 50px;
 }
 
+header button {
+  display: block;
+}
+
+
 /*----------- NAVIGATION --------------*/
 
 nav {
@@ -162,7 +167,7 @@ nav ul.hide {
   border-radius: 10px;
 	box-shadow: 0 0 30px #111;
   color: black;
-  width: 33%;
+  width: 66%;
   justify-content: right;
   }
 

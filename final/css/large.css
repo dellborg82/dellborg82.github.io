@@ -4,12 +4,15 @@
       max-width: 64rem;
       margin:auto;
   }
-}
-/*------------- Header   -------------*/
-
+  
   header button {
     display: none;
   }
+  
+  /* 
+/*------------- Header   -------------*/
+
+  
   
   /* NAV CSS */
   
@@ -72,6 +75,10 @@ section.bottom {
 
 .weather {
   column-count: 3;
+}
+
+.weather-summary {
+  width: 33%;
 }
 
 
