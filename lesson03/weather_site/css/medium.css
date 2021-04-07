@@ -2,6 +2,14 @@
 @media only screen and (min-width: 35rem) {
   /*----------- BODY --------------*/
 
+  main, footer {
+    max-width: 64rem;
+    margin:auto;
+}
+
+header button {
+  display: blockss;
+}
 
 
   /*----------- MAIN --------------*/
@@ -23,5 +31,21 @@
     font-size: 1.5rem;
   }
 
-  /*----------- NAVIGATION --------------*/
+
  
+  /*----------- NAVIGATION --------------*/
+  nav {
+    background: #2E4057; 
+  }
+      
+  nav ul.hide {
+    display: flex;
+  }
+    
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+  }
+    
+  
