@@ -209,14 +209,14 @@ nav ul.hide {
 /*-------- Form Styling -----------*/
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445ba9;
+  border: 1px solid #9c2c13;
   border-radius: 10px;
   padding: .5rem 2%;
   background-color: #FFCAAF;
 }
 
 form legend {
-  color: #445ba9;
+  color: #9c2c13;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
