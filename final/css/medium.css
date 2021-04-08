@@ -54,8 +54,31 @@ section.bottom {
   width: 66%;
 }
 
+/* NAV CSS */
 
-/*------------- Directory -------------*/
+
+    
+nav ul.hide {
+  display: flex;
+}
+  
+nav ul {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+  
+nav ul li {
+  flex: 1 1 100%;
+  float: left
+}
+  
+nav ul li a {
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  padding: .6rem 1rem;
+}
+/*-------------  -------------*/
 
 
 /*------------- ebbyVille -------------*/
@@ -75,4 +98,4 @@ section.bottom {
   background-color: #FFCAAF;
 }
 
-
+}
